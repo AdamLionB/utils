@@ -1,9 +1,10 @@
+#MenuMaskKey vkE8
 <^>!Up::f("up")
 <^>!Down::f("down")
 <^>!Left::f("left")
 <^>!Right::f("right")
-<!Right::End
-<!Left::Home
+<#!Right::End
+<#!Left::Home
 f(p){
 	min_dist_x := -1
 	min_dist_y := -1
