@@ -3,8 +3,10 @@
 <^>!Down::f("down")
 <^>!Left::f("left")
 <^>!Right::f("right")
-<#!Right::End
+<#!Up::PgUp
+<#!Down::PgDn
 <#!Left::Home
+<#!Right::End
 f(p){
 	min_dist_x := -1
 	min_dist_y := -1
